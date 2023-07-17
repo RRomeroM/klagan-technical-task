@@ -13,6 +13,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.romu.inditex.exception.GetRatesExecutionException;
 import com.romu.inditex.service.RatesService;
 import com.romu.inditex.service.dto.RateToApplyInput;
 import com.romu.inditex.service.dto.RateToApplyOutput;

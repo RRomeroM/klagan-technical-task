@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.romu.inditex.GetRatesExecutionException;
 import com.romu.inditex.controller.response.GetRateResponse;
+import com.romu.inditex.exception.GetRatesExecutionException;
 import com.romu.inditex.mapper.Mapper;
 import com.romu.inditex.service.RatesService;
 import com.romu.inditex.service.dto.RateToApplyOutput;

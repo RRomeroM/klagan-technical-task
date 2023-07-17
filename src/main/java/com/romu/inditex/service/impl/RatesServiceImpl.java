@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.romu.inditex.GetRatesExecutionException;
 import com.romu.inditex.entity.Price;
 import com.romu.inditex.entity.Product;
+import com.romu.inditex.exception.GetRatesExecutionException;
 import com.romu.inditex.repository.PriceRepository;
 import com.romu.inditex.repository.ProductRepository;
 import com.romu.inditex.service.RatesService;
